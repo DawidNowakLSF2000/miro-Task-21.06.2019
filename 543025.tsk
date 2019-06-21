@@ -1,0 +1,45 @@
+<Task type="FAIGeneral" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="Leverkusen" id="0" comment="EDKL 122.425" altitude="49.0">
+      <Location longitude="7.0061111" latitude="51.0152778"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="Bergheim" id="0" comment=" 130.125" altitude="70.0">
+      <Location longitude="6.6083333" latitude="50.9769444"/>
+    </Waypoint>
+    <ObservationZone type="FAISector"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="Aachen Merzbruc" id="0" comment="EDKA 122.875" altitude="189.0">
+      <Location longitude="6.1863889" latitude="50.8230556"/>
+    </Waypoint>
+    <ObservationZone type="FAISector"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="Dillingen" id="0" comment=" 130.125" altitude="239.0">
+      <Location longitude="6.7486111" latitude="49.3861111"/>
+    </Waypoint>
+    <ObservationZone type="FAISector"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="Brilon" id="0" comment="EDKO 129.375" altitude="460.0">
+      <Location longitude="8.6419444" latitude="51.4025"/>
+    </Waypoint>
+    <ObservationZone type="FAISector"/>
+  </Point>
+  <Point type="Turn">
+    <Waypoint name="Bergheim" id="0" comment=" 130.125" altitude="70.0">
+      <Location longitude="6.6083333" latitude="50.9769444"/>
+    </Waypoint>
+    <ObservationZone type="FAISector"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="Bergheim" id="0" comment=" 130.125" altitude="70.0">
+      <Location longitude="6.6083333" latitude="50.9769444"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="1000.0"/>
+  </Point>
+</Task>
+
